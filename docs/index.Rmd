@@ -196,12 +196,12 @@ CV %<>% print_section('consultancy')
 
 
 
-<!-- Workshops attended {data-icon=chart-line} -->
-<!-- -------------------------------------------------------------------------------- -->
+Workshops attended {data-icon=chart-line}
+--------------------------------------------------------------------------------
 
-<!-- ```{r} -->
-<!-- CV %<>% print_section('workshops_attended') -->
-<!-- ``` -->
+```{r}
+CV %<>% print_section('workshops_attended')
+```
 
 
 <!-- Events attended {data-icon=calendar-check} -->
