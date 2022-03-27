@@ -38,7 +38,7 @@ CV <- create_CV_object(
   pdf_mode = params$pdf_mode
 )
 
-#CV$entries_data <- CV$entries_data %>% dplyr::filter(in_resume == TRUE)
+CV$entries_data <- CV$entries_data %>% dplyr::filter(in_resume == TRUE)
 
 
 
@@ -116,17 +116,17 @@ Aside
 
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
-<!-- This resume is **not** complete. The extended version is available here: 
-[<i class="fas fa-download"></i>](https://anrungo.github.io/resume/index.pdf)-->
+This resume is **not** complete. The extended version is available here:
+[<i class="fas fa-download"></i>](https://anrungo.github.io/resume/rungo_cv.pdf)
 
-<i class="fas fa-download"></i> [Download](https://anrungo.github.io/resume/index.pdf) 
+<!-- <i class="fas fa-download"></i> [Download](https://anrungo.github.io/resume/rungo_cv.pdf)  -->
 
 
 This CV was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
 
 Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/anrungo/resume). 
 
-Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://anrungo.github.io/resume/index.pdf). 
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://anrungo.github.io/resume/rungo_cv.pdf). 
 
 
 Main
@@ -149,20 +149,21 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-Research Projects {data-icon=laptop}
---------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_section('achieved_projects')
-```
+<!-- Research Projects {data-icon=laptop} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ```{r} -->
+<!-- CV %<>% print_section('achieved_projects') -->
+<!-- ``` -->
 
 
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
+<!-- Teaching Experience {data-icon=chalkboard-teacher} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %<>% print_section('teaching_experience')
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_section('teaching_experience') -->
+<!-- ``` -->
 
 
 
@@ -186,29 +187,29 @@ CV %<>% print_section('consultancy')
 
 
 
-Poster Presentations {data-icon=newspaper}
---------------------------------------------------------------------------------
+<!-- Poster Presentations {data-icon=newspaper} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %<>% print_section('poster_presentations')
-```
-
-
-
-Workshops attended {data-icon=chart-line}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('workshops_attended')
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_section('poster_presentations') -->
+<!-- ``` -->
 
 
-Events attended {data-icon=calendar-check}
---------------------------------------------------------------------------------
 
-```{r}
-CV %<>% print_section('events_attended')
-```
+<!-- Workshops attended {data-icon=chart-line} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ```{r} -->
+<!-- CV %<>% print_section('workshops_attended') -->
+<!-- ``` -->
+
+
+<!-- Events attended {data-icon=calendar-check} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- ```{r} -->
+<!-- CV %<>% print_section('events_attended') -->
+<!-- ``` -->
 
 
 Short courses Attended {data-icon=book} 
