@@ -71,7 +71,7 @@ Aside
 ### CONTACT
 <center>
 
-<a href='https://anrungo.github.io/' target='_blank'><i class="fa fa-home"></i></a>
+<a href='https://antoniorungo.com/' target='_blank'><i class="fa fa-home"></i></a>
  <a href='https://github.com/anrungo' target='_blank'><i class="fa fa-github"></i></a> 
  <a href='mailto:tony.niquisse@gmail.com'><i class="fa fa-envelope"></i></a> 
  <a href='https://twitter.com/aniquisse' target='_blank'><i class="fa fa-twitter"></i></a>  
@@ -196,12 +196,12 @@ CV %<>% print_section('consultancy')
 
 
 
-Workshops attended {data-icon=chart-line}
---------------------------------------------------------------------------------
+<!-- Workshops attended {data-icon=chart-line} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %<>% print_section('workshops_attended')
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_section('workshops_attended') -->
+<!-- ``` -->
 
 
 <!-- Events attended {data-icon=calendar-check} -->
