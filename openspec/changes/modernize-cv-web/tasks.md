@@ -23,9 +23,9 @@
 
 ## 4. Deploy & verificação
 - [x] 4.1 Adicionar `docs/.nojekyll`
-- [ ] 4.2 Commit + push; confirmar GitHub Pages servindo `docs/` (aguarda OK p/ push)
-- [ ] 4.3 Verificar `https://anrungo.github.io/resume/` (landing nova como home)
-- [ ] 4.4 Verificar botão "Baixar CV" → `rungo_cv.pdf` e links de contato
+- [x] 4.2 Commit + push (`59b539e`, `77ea117`); repo tornado público p/ reativar Pages
+- [x] 4.3 Verificado `https://anrungo.github.io/resume/` → HTTP 200 (landing nova)
+- [x] 4.4 Verificado `rungo_cv.pdf`, `cv.html`, `assets/*` → todos HTTP 200
 
 ## 5. Conteúdo (confirmar com o usuário antes de fixar)
 - [x] 5.1 Ferramenta no-code definida: **n8n** (landing e Rmd atualizados)
