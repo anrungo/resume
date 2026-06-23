@@ -69,6 +69,16 @@ create_CV_object <-  function(data_location,
       lubridate::dmy()
   }
 
+  # Certificate PDFs are kept only in the repo (not published on the site), so
+  # drop their markdown links here. The course names (entry titles) stay intact;
+  # description cells that held only a certificate link become NA and are dropped.
+  cert_link_pattern <- "\\s*-?\\s*\\[[^]]*\\]\\([^)]*certificates[^)]*\\)"
+  cv$entries_data <- cv$entries_data %>%
+    dplyr::mutate(dplyr::across(
+      tidyr::starts_with("description"),
+      ~ dplyr::na_if(stringr::str_trim(stringr::str_remove_all(., cert_link_pattern)), "")
+    ))
+
   # Clean up entries dataframe to format we need it for printing
   cv$entries_data %<>%
     tidyr::unite(
