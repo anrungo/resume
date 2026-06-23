@@ -18,8 +18,8 @@
 - [x] 3.1 Re-apontar o build do pagedown para gerar `cv.html` + `rungo_cv.pdf`
       (não sobrescrever `index.html`) — `index.Rmd`→`cv.Rmd`, `export_cv.R` ajustado
 - [x] 3.2 Adicionar grupo "AI & Automação" na seção de skills do `cv.Rmd`
-- [ ] 3.3 Regerar e conferir o `rungo_cv.pdf` — BLOQUEADO: R não disponível nesta
-      máquina; rodar `source("docs/export_cv.R")` no RStudio. PDF atual segue válido.
+- [x] 3.3 PDF regenerado pelo usuário no RStudio; renomeado/servido como `cv.pdf`
+      (download verificado HTTP 200 em anrungo.github.io/resume/cv.pdf)
 
 ## 4. Deploy & verificação
 - [x] 4.1 Adicionar `docs/.nojekyll`
