@@ -133,16 +133,16 @@ Aside
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 This resume is **not** complete. The extended version is available here:
-[<i class="fas fa-download"></i>](https://anrungo.github.io/resume/rungo_cv.pdf)
+[<i class="fas fa-download"></i>](https://anrungo.github.io/resume/cv.pdf)
 
-<!-- <i class="fas fa-download"></i> [Download](https://anrungo.github.io/resume/rungo_cv.pdf)  -->
+<!-- <i class="fas fa-download"></i> [Download](https://anrungo.github.io/resume/cv.pdf)  -->
 
 
 This CV was made with the R package [**pagedown**](https://github.com/rstudio/pagedown) and [**datadrivencv**](http://nickstrayer.me/datadrivencv/index.html).
 
 Code available on <i class="fa fa-github"></i>  [GitHub](https://github.com/anrungo/resume). 
 
-Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://anrungo.github.io/resume/rungo_cv.pdf). 
+Last updated on `r Sys.Date()`. The most recent version of this resume is [available here](https://anrungo.github.io/resume/cv.pdf). 
 
 
 Main
