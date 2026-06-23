@@ -23,22 +23,8 @@
   --mono:          ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --accent:      #4bc2d4;
-    --accent-2:    #2a93a3;
-    --accent-soft: #12303a;
-    --ink:         #eef4f7;
-    --body:        #aebccc;
-    --muted:       #71849a;
-    --bg:          #0d141b;
-    --bg-alt:      #111b24;
-    --card:        #141f29;
-    --line:        #233241;
-    --shadow:      0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.35);
-    --shadow-hover:0 2px 6px rgba(0,0,0,.4), 0 16px 40px rgba(0,0,0,.5);
-  }
-}
+/* Light by default — dark only when the user explicitly opts in via toggle.
+   (No prefers-color-scheme auto-switch, to match antoniorungo.com.) */
 :root[data-theme="dark"] {
   --accent:      #4bc2d4;
   --accent-2:    #2a93a3;

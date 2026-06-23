@@ -325,9 +325,7 @@
       var saved = localStorage.getItem(key);
       if (saved) root.setAttribute('data-theme', saved);
       document.getElementById('themeToggle').addEventListener('click', function () {
-        var current = root.getAttribute('data-theme');
-        var isDark = current === 'dark' ||
-          (!current && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        var isDark = root.getAttribute('data-theme') === 'dark';
         var next = isDark ? 'light' : 'dark';
         root.setAttribute('data-theme', next);
         localStorage.setItem(key, next);
